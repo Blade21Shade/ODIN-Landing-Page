@@ -18,18 +18,21 @@ body {
 }
 
 .link-list { /*This is intended to be applied to <ul>s*/
-    font-size: 18px;
-    color: #e5e7eb;
-
     flex : auto;
     
-
     display: flex;
     list-style-type: none;
+    gap : 8 px;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-a {
+.header-link {
     text-decoration: none;
+    color: #929292;
+    font-size: 18px;
+    padding: 8px;
+    margin: 4px;
 }
 
 .left-content {
