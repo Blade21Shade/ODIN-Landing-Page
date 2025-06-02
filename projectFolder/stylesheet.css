@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+}
+
+.logo {
+    flex : auto;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.link-list { /*This is intended to be applied to <ul>s*/
+    font-size: 18px;
+    color: #e5e7eb;
+
+    flex : auto;
+    
+
+    display: flex;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-content {
+
+}
+
+.right-content {
+
+}
+
+.footer {
+
+}
+
+.content {
+
+}
