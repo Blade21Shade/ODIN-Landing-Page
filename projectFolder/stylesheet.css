@@ -83,7 +83,7 @@ body {
     align-items: center;
 }
 
-img {
+.hero-img {
     flex: 1;
     background-color: #929292;
     text-align: center;
@@ -91,10 +91,43 @@ img {
 
 .random-info {
     padding: 0px 200px;
+    padding-bottom: 80px;
+    background-color: white;
 }
 
-.box-and-text {
+.some-random-info {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+}
 
+.img-and-text-container {
+    display: flex;
+    gap: 32px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-and-text {
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+}
+
+.img-and-text-img {
+    padding: 60px 20px;
+    border: #3882f6 2px solid;
+    border-radius: 8px;
+    flex: auto;
+}
+
+.img-and-text-text {
+    text-wrap: wrap;
+    width: 200px;
+    flex: auto;
 }
 
 .quote {
