@@ -129,8 +129,24 @@ body {
     flex: auto;
 }
 
+.quote-container {
+    padding: 80px 400px;    
+    background-color: #e5e7eb;
+
+    display: flex;
+    flex-direction: column;
+}
+
 .quote {
-    padding: 0px 200px;
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: -24px;
+}
+
+.quote-source {
+    text-align: end;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .call-to-action {
