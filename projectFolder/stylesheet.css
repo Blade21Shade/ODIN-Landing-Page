@@ -1,15 +1,15 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 0px 200px;
     margin: 0px;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
+    padding: 0px 200px;
 }
 
 .logo {
@@ -37,7 +37,7 @@ body {
 }
 
 .introduction {
-    padding: 80px 0px;
+    padding: 80px 200px;
     background-color: #1f2937;
     
 
@@ -90,7 +90,7 @@ img {
 }
 
 .random-info {
-
+    padding: 0px 200px;
 }
 
 .box-and-text {
@@ -98,11 +98,11 @@ img {
 }
 
 .quote {
-
+    padding: 0px 200px;
 }
 
 .call-to-action {
-
+    padding: 0px 200px;
 }
 
 .call-to-action-box {
@@ -111,5 +111,5 @@ img {
 
 
 .footer {
-
+    padding: 0px 200px;
 }
