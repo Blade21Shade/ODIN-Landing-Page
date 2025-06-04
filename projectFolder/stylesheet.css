@@ -80,8 +80,9 @@ body {
 }
 
 .introduction-right {
-    flex : 1;
+    flex: 1;
 
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -120,10 +121,12 @@ body {
 }
 
 .img-and-text-img {
-    padding: 60px 20px;
-    border: #3882f6 2px solid;
+    border: #3882f6 4px solid;
     border-radius: 8px;
     flex: auto;
+
+    width: 200px;
+    height: 200px;
 }
 
 .img-and-text-text {
@@ -144,12 +147,15 @@ body {
     font-size: 36px;
     color: #1f2937;
     margin-bottom: -24px;
+    min-width: 800px;
 }
 
 .quote-source {
     text-align: end;
     font-weight: 900;
     font-size: 24px;
+
+    min-width: 80px;
 }
 
 .call-to-action-container {
