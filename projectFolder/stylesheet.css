@@ -149,12 +149,51 @@ body {
     font-size: 24px;
 }
 
-.call-to-action {
-    padding: 0px 200px;
+.call-to-action-container {
+    padding: 80px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .call-to-action-box {
+    border: #3882f6 2px solid;
+    border-radius: 12px;
+    padding: 40px 80px;
+    background-color: #3882f6;
+    
 
+    display: flex;
+    align-items: center;
+    gap: 128px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.call-to-action-text-line-one {
+    font-size: 24px;
+    margin: 8px;
+    font-weight: 900;
+}
+
+.call-to-action-text-line-two {
+    font-size: 20px;
+    margin: 8px;
+}
+
+.call-to-action-button {
+    padding: 16px 24px;
+    
+    border: 2px white solid;
+    border-radius: 12px;
+
+    font-size: 20px;
+    background-color: #3882f6;
+    color: #f9faf8;
 }
 
 
