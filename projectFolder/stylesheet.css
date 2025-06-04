@@ -72,8 +72,11 @@ body {
 .hero-sign-up-button {
     background-color: #3882f6;
     color: #f9faf8;
+    
     padding: 8px 16px;
+    
     border-radius: 8px;
+    border: 0px;
 }
 
 .introduction-right {
@@ -159,7 +162,7 @@ body {
 .call-to-action-box {
     border: #3882f6 2px solid;
     border-radius: 12px;
-    padding: 40px 80px;
+    padding: 30px 70px;
     background-color: #3882f6;
     
 
